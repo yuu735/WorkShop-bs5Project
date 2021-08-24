@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/all.css">
+    
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" />
+    <link
+    href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@400;600;700&family=Noto+Sans+TC:wght@400;700&display=swap"
+    rel="stylesheet" />
+    <style>
+        @import url(https://fonts.googleapis.com/earlyaccess/notosanstc.css);
+        @import url(https://fonts.googleapis.com/css?family=Baloo+Tamma+2:600,700);
+    </style>
+
+    <title>首頁練習</title>
+  </head>
+  <body>
+    
+    <header class="border-bottom border-5 border-warning">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light py-3">
+                <div class="container">
+                    <a class="navbar-brand py-0" href="#"><img src="https://hexschool.github.io/boootstrap5WebLayout/assets/logo.jpg" alt="拼拼LOGO" width="111" height="40" class="d-inline-block align-top"></a>
+                  <button class="navbar-toggler border-0 p-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link link-dark px-md-4" aria-current="page" href="#">關於</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link link-dark px-md-4" href="#">挖寶</a>
+                      </li>
+                      
+                      <li class="nav-item">
+                        <a class="nav-link link-dark px-md-4" href="#" tabindex="-1" aria-disabled="true">我有個大膽的想法</a>
+                      </li>
+                    </ul>
+                    <form class="justify-content-end d-flex">
+                        <button class="btn btn-warning btn-warning-hover me-3 px-4 rounded-pill" type="login">登入</button>
+                      <button class="btn btn-outline-secondary btn-outline-secondary-hover rounded-pill" type="submit">註冊</button>
+                    </form>
+                  </div>
+                </div>
+              </nav>
+        </div>
+    </header>
+    <section class="bg-light">
+        <div class="container py-3 py-md-5 ">
+            <span class="badge bg-secondary px-3">魔法科技></span>
+            <h1 class="fs-lg-2 fs-mobile-1 fw-bold mt-1 mb-0 pb-4 letter-spacing-22">拍出會動的照片 | LivePhotos 魔法拍立得</h1>
+            <!-- row包住左7col，右5col -->
+            <div class="row align-items-center">
+                <div class="col-md-auto col-lg-7"><img src="https://ecjia.com.tw/demo/bs5_homework_0526/assets/produt_image.jpg" alt="魔法拍立得示意圖"
+                    class="img-fluid rounded-img" />
+                </div>
+                <div class="col-md col-lg-5">
+                    <small class="text-dark font-baloo-tamma lh-lg d-block mt-3 mt-md-0">目標 $600,000</small>
+                    <div class="font-baloo-tamma fs-2 fw-bold">$280,047</div>
+                    <div class="progress rounded-pill">
+                        <div class="progress-bar bg-warning text-secondary fs-lg-sm fs-mobile-5 " role="progressbar" style="width: 41%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">41%</div>
+                    </div>
+                    <!-- 一層row包住贊助人數和倒數日 -->
+                    <div class="row">
+                        <div class="col-6 mt-4 ">
+                            <div class="position-relative">
+                                <small class="position-absolute top-0 start-0  fw-normal text-dark translate-middle-y pb-3">贊助人數</small>
+                                <span class="font-baloo-tamma fs-2 lh-lg fw-bold ">1374</span>
+                                <span class="fs-4 fw-bold lh-lg">人</span>
+                            </div>
+                        </div>
+                        <div class="col-6 mt-4"> 
+                            <div class="position-relative">
+                                <small class="position-absolute top-0 start-0  fw-normal text-dark translate-middle-y pb-3">
+                                    募資倒數</small>
+                                <span class="font-baloo-tamma fs-2 lh-lg fw-bold ">27</span>
+                                <span class="fs-4 fw-bold lh-lg">天</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 四個圖標標籤 -->
+                    <ul class="d-flex justify-content-between justify-content-md-start list-unstyled mb-3 mt-2">
+                        <li class="me-3 me-md-4">
+                            <a href="#" class="link-dark text-decoration-none" data-bs-toggle="tooltip" data-bs-placement="top"
+                            title="認證標章" data-bs-customClass="mytooltip">
+                            <img src="https://ecjia.com.tw/demo/bs5_homework_0526/assets/xunzhang.svg" alt="認證標章圖標"
+                              class="me-1 square-1 square-md-2" />
+                            <small class="d-md-none align-bottom">認證標章</small></a>
+                        </li>
+                        <li class="me-3 me-md-4">
+                            <a href="#" class="link-dark text-decoration-none" data-bs-toggle="tooltip" data-bs-placement="top"
+                            title="品質保證" data-bs-customClass="mytooltip">
+                            <img src="https://ecjia.com.tw/demo/bs5_homework_0526/assets/dianzan.svg" alt="品質保證圖標"
+                              class="me-1 square-1 square-md-2" />
+                            <small class="d-md-none align-bottom">品質保證</small>
+                          </a>
+                        </li>
+                        <li class="me-3 me-md-4">
+                            <a href="#" class="link-dark text-decoration-none" data-bs-toggle="tooltip" data-bs-placement="top"
+                  title="原生創意" data-bs-customClass="mytooltip">
+                  <img src="https://ecjia.com.tw/demo/bs5_homework_0526/assets/tishi.svg" alt="原生創意圖標"
+                    class="me-1 square-1 square-md-2" />
+                  <small class="d-md-none align-bottom">原生創意</small>
+                </a>
+                        </li>
+                        <li class="me-3 me-md-4">
+                            <a href="#" class="link-dark text-decoration-none" data-bs-toggle="tooltip" data-bs-placement="top"
+                            title="人氣王" data-bs-customClass="mytooltip">
+                            <img src="https://ecjia.com.tw/demo/bs5_homework_0526/assets/huangguan.svg" alt="人氣王圖標"
+                              class="me-1 square-1 square-md-2" />
+                            <small class="d-md-none align-bottom">人氣王</small></a>
+                        </li>
+                    </ul>
+                    <!-- 卡片資訊 -->
+                    <div class="bd-callout bd-callout-warning">
+                        <span>專案募資中</span>
+                        <br>
+                        <span>在<strong>2021/06/14 23:59</strong>募資結束前,您都可以贊助我們！</span>
+                    </div>
+                    <!-- 贊助按鈕 -->
+                    <button class="btn-warning btn btn-warning-hover w-100 rounded-pill btn-lg mb-2">贊助方案</button>
+                    <!-- 一層row包住兩個按鈕 -->
+                    <div class="row">
+                        <div class="col-6 col-md-7">
+                            <button class="btn btn-outline-secondary btn-outline-secondary-hover border-2 w-100 rounded-pill btn-lg">
+                                <i class="fas fa-heart custom-heart"></i>追蹤專案</button>
+                        </div>
+                        <div class="col">
+                            <button class="btn btn-outline-secondary btn-outline-secondary-hover border-2 w-100 rounded-pill btn-lg"><i class="fas fa-share-alt">分享</i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.min.js" integrity="sha384-lpyLfhYuitXl2zRZ5Bn2fqnhNAKOAaM/0Kr9laMspuaMiZfGmfwRNFh8HlMy49eQ" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>

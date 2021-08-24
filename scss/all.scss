@@ -1,0 +1,20 @@
+@import "./bootstrap-scss/bootstrap.scss";
+@import "./custom/components/accordion";
+@import "./custom/components/button";
+@import "./custom/helper/nav";
+@import "./custom/pages/news";
+@import "./custom/components/from";
+
+
+.bd-callout {
+    padding: 1.25rem;
+    margin-top: 0.25rem;
+    margin-bottom: 1.25rem;
+    border: 1px solid #e9ecef;
+    border-left-width: .25rem;
+    border-radius: .25rem;
+}
+.bd-callout-warning{
+    border-left-color: #FFDF65;
+
+}
